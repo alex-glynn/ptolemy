@@ -1,0 +1,16 @@
+{
+  "name": "Ptolemy",
+  "short_name": "Ptolemy",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary"
+  "icons": [
+	  {
+		  "src": "icon.png",
+		  "type": "image/png",
+		  "sizes": "114x114"
+	  }
+  ]
+}

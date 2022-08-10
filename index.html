@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <!--Make page same width as device-->
@@ -10,51 +10,56 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <!--Prevent Scaling-->
         <meta name="viewport" content="user-scalable=no, width=device-width">
-        <title>Rome Calc</title>
+        <title>Ptolemy</title>
         <!--Style Sheet-->
         <link href="roman.css" type="text/css" rel="stylesheet">
+	<!--Mobile manifest-->
+	<link rel="manifest" href="manifest.json"/>
         <!--Icon-->
         <link rel="apple-touch-icon" href="./icon.png">
-        <script type='text/javascript' src='./roman.js' defer></script>
+        <!--Load jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!--Load calculator JavaScript-->
+        <script src='./roman.js' defer></script>
         <!--Prevent Elastic Scrolling-->
         <script>
             function BlockMove(event) {
-             // Tell Safari not to move the window.
-             event.preventDefault() ;
-            }
+                // Tell Safari not to move the window.
+                event.preventDefault();
+            };
         </script>
     </head>
     <body ontouchmove="BlockMove(event);">
         <div class="calc">
             <div id="screen"></div>
             <div class="row">
-                <button type = "button" id = 'I' class="numeral">I</button>
-                <button type = "button" id = 'V' class="numeral">V</button>
-                <button type = "button" id = 'plus' class="operator">+</button>
+                <button type="button" id="I" class="numeral">I</button>
+                <button type="button" id="V" class="numeral">V</button>
+                <button type="button" id="plus" class="operator">+</button>
             </div>
             <div class="row">
-                <button type = "button" id = 'X' class="numeral">X</button>
-                <button type = "button" id = 'L' class="numeral">L</button>
-                <button type = "button" id = 'minus' class="operator">-</button>
+                <button type="button" id="X" class="numeral">X</button>
+                <button type="button" id="L" class="numeral">L</button>
+                <button type="button" id="minus" class="operator">-</button>
             </div>
             <div class="row">
-                <button type = "button" id='C' class="numeral">C</button>
-                <button type = "button" id='D' class="numeral">D</button>
-                <button type = "button" id='multiply' class="operator">&#215;</button>
+                <button type="button" id="C" class="numeral">C</button>
+                <button type="button" id="D" class="numeral">D</button>
+                <button type="button" id="multiply" class="operator">&#215;</button>
             </div>
             <div class="row">
-                <button type = "button" id='M' class="numeral">M</button>
-                <button type = 'button' id='backspace'>del</button>
-                <button type = "button" id='divide' class="operator">&#247;</button>
+                <button type="button" id="M" class="numeral">M</button>
+                <button type="button" id="backspace">del</button>
+                <button type="button" id="divide" class="operator">&#247;</button>
             </div>
             <div class="row">
-                <button type = 'button' id = 'clear'>cl</button>
-                <button type = "button" id = "equals">=</button>
+                <button type="button" id="clear">cl</button>
+                <button type="button" id="equals">=</button>
             </div>
         </div>
-        <p id='savedOperand'></p>
-        <p id='operator'></p>
-        <p id='newOperand'></p>
-        <p id='result'></p>
+        <p id="savedOperand"></p>
+        <p id="operator"></p>
+        <p id="newOperand"></p>
+        <p id="result"></p>
     </body>
 </html>
