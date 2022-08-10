@@ -1,9 +1,4 @@
 // Convert Roman Numerals to Arabic Numerals
-//$(function () {
-	//let screen = $('#screen');
-	//let equals = $('#equals');
-	//let backsapce = $('#backspace');
-//});
 let screen = document.getElementById('screen');
 let equals = document.getElementById('equals');
 let backspace = document.getElementById('backspace');
@@ -116,11 +111,11 @@ const romanToArabic = string => {
 const arabicToRoman = n => {
     // round n to nearest integer
     n = Math.round(n);
-    // return error for values over 3999
+    // return error for values over 3999 or less than 1
     if (n > 3999) {
-        return 'Err: > 3999';
+        return '> MMMCMXCIX';
     } else if (n < 1) {
-        return 'Err: < 1';
+        return '< I';
     };
     // convert to string
     const nString = String(n);
