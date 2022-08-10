@@ -1,4 +1,9 @@
 // Convert Roman Numerals to Arabic Numerals
+//$(function () {
+	//let screen = $('#screen');
+	//let equals = $('#equals');
+	//let backsapce = $('#backspace');
+//});
 let screen = document.getElementById('screen');
 let equals = document.getElementById('equals');
 let backspace = document.getElementById('backspace');
