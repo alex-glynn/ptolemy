@@ -1,1 +1,3 @@
-Repository for ptolemy.pages, the Roman numeral calculator
+# Ptolemy
+
+This is the repository for <ptolemy.page>, the Roman numeral calculator.
