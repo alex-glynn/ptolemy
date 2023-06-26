@@ -181,9 +181,9 @@ main {
 #screen {
   width: 100%;
   height: 20vh;
-  border: none;
+  border: 2px solid white;
   margin-bottom: 5vh;
-  background-color: #000;
+  background-color: black;
   color: white;
   border-radius: 2vh;
   font-size: 10vh;
@@ -207,13 +207,6 @@ main {
     "C D times"
     "M del divide"
     "cl equals equals";
-}
-
-input {
-  width: 60px;
-  background-color: #000;
-  border: 1px solid #fff;
-  color: white;
 }
 
 button {
