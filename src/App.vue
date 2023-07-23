@@ -162,8 +162,15 @@ const del = () => {
 </template>
 
 <style scoped>
+@font-face {
+	font-family: 'Linux Biolinum';
+	font-style: normal;
+	font-weight: normal;
+	src:  url('assets/LinBiolinum_R.woff') format('woff');
+}
+
 * {
-  font-family: Optima, sans-serif;
+  font-family: 'Linux Biolinum', sans-serif;
 }
 
 main {
