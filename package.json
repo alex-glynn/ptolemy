@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "register-service-worker": "^1.7.2",
+    "vite-plugin-pwa": "^0.16.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
