@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="600px" viewBox="0 0 600 600" version="1.2">
+<style>
+  @font-face {
+    font-family: 'Linux Libertine';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('../fonts/LinLibertine_R.woff') format('woff');
+    }
+    @font-face {
+    font-family: 'Linux Biolinum';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('../fonts/LinBiolinum_R.woff') format('woff');
+    }
+
+  text {
+    font-family: 'Linux Biolinum';
+    font-size: 400px;
+    fill: white;
+  }
+</style>
+<rect width="100%" height="100%" fill="black"/>
+<text x="47.5%" y="57.5%" dominant-baseline="middle" text-anchor="middle">Pt</text>
+</svg>
