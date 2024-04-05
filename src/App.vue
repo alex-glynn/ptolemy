@@ -173,10 +173,6 @@ const del = () => {
   font-family: 'Linux Biolinum', sans-serif;
 }
 
-body {
-  background-color: black;
-}
-
 main {
   width: 100%;
   height: 100%;
