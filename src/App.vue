@@ -179,6 +179,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: black;
 }
 
 #screen::-webkit-scrollbar {
