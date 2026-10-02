@@ -72,14 +72,14 @@ const romanToArabic = roman => {
 
 const tooHigh = () => {
   screen.value = "Error: altior"
-  isNewCalculation = true
-  isNewOperand = true
+  isNewCalculation.value = true
+  isNewOperand.value = true
 }
 
 const tooLow = () => {
   screen.value = "Error: brevior"
-  isNewCalculation = true
-  isNewOperand = true
+  isNewCalculation.value = true
+  isNewOperand.value = true
 }
 
 const arabicToRoman = arabic => {
